@@ -29,10 +29,10 @@
     <meta name="author" content="Virtual Labs - A MHRD Govt of india Initiative">
 
     <title>Welcome to Virtual Labs - A MHRD Govt of india Initiative</title>
-    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="shortcut icon" href="../images/small-logo.png">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/vlabs-style.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
     <script src="../js/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
@@ -48,16 +48,12 @@
     <!--End Google Tag Manager (noscript)-->
     <header class="vlabs-header sticky-top bg-white">
       <!-- navbar -->
-            <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
-        
-	      <button class="navbar-toggler px-4" type="button" onclick="toggle()">
-		<span class="navbar-toggler-icon"></span>
-	      </button>
-	      
+            <nav class="p-0 navbar navbar-light d-flex align-items-stretch">	      
         <div class="d-flex justify-content-center">        
-          <a href="https://vlab.co.in" class="navbar-brand">
-          <img src="../images/vlabs-color-small-moe.jpg" alt="vlabs logo">
+          <a href="#" class="navbar-brand">
+          <img src="../images/logo.PNG" alt="vlabs logo">
           </a>
+          <h1 class="text-center">Virtual Lab</h1>
         </div>
         
         <div id="headerNavbar" class="border-top flex-grow-1 d-flex align-items-center">
@@ -130,38 +126,36 @@
     <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
       <div class="row px-5">
 	<div class="col d-flex flex-column">
-	  <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
-	  <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
-	  <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
-	  <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+	  <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Reachout Links</span>
+	  <a href="https://www.siesgst.edu.in/" class="text-light">SIES GST</a>
+	  <a href="https://www.mum.digitaluniversity.ac/" class="text-light">MU Digital</a>
+	  <a href="https://siesedu.in/home.htm" class="text-light">Juno Portal SIES GST</a>
 	</div>
 	<div class="col d-flex flex-column">
 	  <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
-	  <span> Phone: General Information: 011-26582050 </span>
-	  <span> Email: support@vlabs.ac.in </span>
+	  <span> Phone: SIES-GST Enquiry: 022-6108-2400 </span>
+	  <span> Email: siesgst@sies.edu.in </span>
 	</div>
 	<div class="col d-flex flex-column">
 	  <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
 	  <div class="social-links">
-	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
-	      <i class="fa fa-twitter"></i>
+	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://www.linkedin.com/school/sies-graduate-school-of-technology">
+	      <i class="fa fa-linkedin"></i>
 	    </a>
-	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
-	      <i class="fa fa-facebook"></i>
-	    </a>
-	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/c/SIESGSTWeb">
 	      <i class="fa fa-youtube"></i>
 	    </a>
-	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
-	      <i class="fa fa-linkedin"></i>
+            <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/285062888233506/">
+              <i class="fa fa-facebook"></i>
+            </a>
+	    <a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/SIESGSTNerul?t=l3PTyFW0ErDg-RFppAwpzA&s=09">
+	      <i class="fa fa-twitter"></i>
 	    </a>
 	  </div>
 	</div>
       </div>
-      <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
-        <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
-        &nbsp;&amp;&nbsp;
-        <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+      <div class="footer-empty">
+        
       </div>
     </footer>
 
